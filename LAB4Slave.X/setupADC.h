@@ -1,0 +1,20 @@
+
+
+// This is a guard condition so that contents of this file are not included
+// more than once.  
+#ifndef setADC_H
+#define	setADC_H
+
+#include <xc.h> // include processor files - each processor file is guarded.  
+#include <stdint.h>
+
+// TODO Insert appropriate #include <>
+
+// TODO Insert declarations
+
+void ADC_config(int channel);
+uint8_t ADC_read(uint8_t channel);
+
+
+#endif	/* XC_HEADER_TEMPLATE_H */
+
